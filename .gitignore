@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/VSWorkspaceState.json
+/.vs/SOFE2800U_Assignment_2/v17/.suo
+/.vs/SOFE2800U_Assignment_2/v17
+/.vs/SOFE2800U_Assignment_2/FileContentIndex/read.lock
+/.vs/SOFE2800U_Assignment_2/FileContentIndex/c284dfd0-9990-426c-9dd4-7b220c91155f.vsidx
+/.vs/SOFE2800U_Assignment_2/FileContentIndex/90c61723-ace5-49db-ae3f-bd0ed0529875.vsidx
+/.vs/SOFE2800U_Assignment_2/FileContentIndex/5f8cfcca-678d-43f0-afee-93c904839efe.vsidx
+/.vs/SOFE2800U_Assignment_2/FileContentIndex/06066f9b-22a0-4baf-9aaa-b2ea594c79c6.vsidx
+/.vs/SOFE2800U_Assignment_2/FileContentIndex
+/.vs/SOFE2800U_Assignment_2/config/applicationhost.config
+/.vs/slnx.sqlite
+/.vs/ProjectSettings.json

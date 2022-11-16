@@ -1,0 +1,23 @@
+﻿*{
+    margin:0px;
+    padding:0px;
+}
+
+.header{
+    height: 10vh;
+    width: 100%;
+
+    background-color: lightgray;
+}
+.footer {
+    height: 10vh;
+    width: 100%;
+    
+    background-color: lightgray;
+}
+
+.mainBody {
+    height: 80vh;
+    width: 100%;
+    background-color: lightcyan;
+}

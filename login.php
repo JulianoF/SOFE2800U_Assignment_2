@@ -13,26 +13,36 @@
         <h1>PHP Login/Auth Example</h1>
     </div>
 
+    <div class = "navBar">
+        <ul class= "nav">
+            <li class = "navItem"><a href="login.php">Login</a></li>
+            <li class = "navItem"><a href ="create.php">Create New</a></li>
+        </ul>
+    </div>
+
     <div class="mainBody">
-        <h2>Login</h2>
 
-        <form>
+        <div class = "subContainer">
+            <p>Login</p>
 
-            <label> Username: </label>  
-            <input type = "text" id ="user" name  = "user" /> 
+            <form method="POST">
 
-            <br>
+                <label> Username: </label>  
+                <input type = "text" id ="user" name  = "user" style="margin-bottom: 20px;" /> 
 
-            <label> Password: </label>  
-            <input type = "password" id ="pass" name  = "pass" />  
+                <br>
 
-            <br>
+                <label> Password: </label>  
+                <input type = "password" id ="pass" name  = "pass" style="margin-bottom: 20px;" />  
 
-            <button type =  "submit"> Login </button>
-            <!--<input type =  "submit" id = "btn" value = "Login" /> -->
+                <br>
+
+                <button type =  "submit"> Login </button>
+                <!--<input type =  "submit" id = "btn" value = "Login" /> -->
          
 
-        </form>
+            </form>
+        </div>
 
     </div>
 

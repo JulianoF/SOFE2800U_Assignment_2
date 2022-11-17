@@ -25,15 +25,15 @@
         <div class = "subContainer">
             <p>Login</p>
 
-            <form method="POST">
+            <form method="POST" style="padding-top: 20px;">
 
-                <label> Username: </label>  
-                <input type = "text" id ="user" name  = "user" style="margin-bottom: 20px;" /> 
+                <label for ="user"> Username </label>  
+                <input type = "text" id ="user" name  = "user" placeholder="Enter Username" style="margin-bottom: 20px;" required/> 
 
                 <br>
 
-                <label> Password: </label>  
-                <input type = "password" id ="pass" name  = "pass" style="margin-bottom: 20px;" />  
+                <label for = "pass"> Password </label>  
+                <input type = "password" id ="pass" name  = "pass" placeholder="Enter Password" style="margin-bottom: 20px;" required/>  
 
                 <br>
 

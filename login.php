@@ -1,4 +1,12 @@
-﻿<!DOCTYPE html>
+﻿﻿<?php
+include 'authentication.php';
+if(!empty($_POST)){
+    $account = new authentication($_POST['user'], $_POST['pass']);
+    $account->login();
+}
+?>
+
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>

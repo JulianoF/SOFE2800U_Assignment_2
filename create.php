@@ -1,3 +1,11 @@
+﻿﻿<?php
+include 'authentication.php';
+if(!empty($_POST)){
+    $account = new authentication($_POST['uname'], $_POST['upass']);
+    $account->createUser();
+}
+?>
+
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
